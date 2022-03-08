@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['rebin_0',['rebin',['../classUNFOLD_1_1RESPONSEMATRIX.html#a8e8ae7d42ddb120f0342d16b750039a9',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['responsematrix_1',['RESPONSEMATRIX',['../classUNFOLD_1_1RESPONSEMATRIX.html#a6286cb9be2457881431173f4bdd73a07',1,'UNFOLD::RESPONSEMATRIX::RESPONSEMATRIX(Eigen::MatrixXf response_matrix)'],['../classUNFOLD_1_1RESPONSEMATRIX.html#a0646953d41d502dfcd6df72f19d80951',1,'UNFOLD::RESPONSEMATRIX::RESPONSEMATRIX(TString filename)'],['../classUNFOLD_1_1RESPONSEMATRIX.html',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['responsematrix_2eh_2',['RESPONSEMATRIX.h',['../RESPONSEMATRIX_8h.html',1,'']]]
+  ['quickstart_20usage_20and_20examples_0',['Quickstart Usage and Examples',['../quickstart.html',1,'index']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['responsematrix_2eh_0',['RESPONSEMATRIX.h',['../RESPONSEMATRIX_8h.html',1,'']]]
+  ['filehandler_2eh_0',['FILEHANDLER.h',['../FILEHANDLER_8h.html',1,'']]]
 ];

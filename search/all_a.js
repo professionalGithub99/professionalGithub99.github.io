@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['set_5fground_5ftruth_0',['set_ground_truth',['../classUNFOLD_1_1CORE__SINGLETON.html#a62b751eeb21068f643f437a801b7440b',1,'UNFOLD::CORE_SINGLETON']]],
-  ['set_5flight_5fbin_5fwidths_1',['set_light_bin_widths',['../classUNFOLD_1_1RESPONSEMATRIX.html#a894eae61a39f796758132ce62b4d64b4',1,'UNFOLD::RESPONSEMATRIX::set_light_bin_widths(Eigen::VectorXf light_bin_widths)'],['../classUNFOLD_1_1RESPONSEMATRIX.html#a71ad8a414414cad7dfd7af02c8841165',1,'UNFOLD::RESPONSEMATRIX::set_light_bin_widths(TString filename)']]],
-  ['set_5flight_5fspectrum_2',['set_light_spectrum',['../classUNFOLD_1_1CORE__SINGLETON.html#ad0bfbee03c27c3d81b050d1a73cc0864',1,'UNFOLD::CORE_SINGLETON']]],
-  ['set_5fneutron_5fbin_5fwidths_3',['set_neutron_bin_widths',['../classUNFOLD_1_1RESPONSEMATRIX.html#a42b6b4a9f2a47088b87c88d68f2c64e3',1,'UNFOLD::RESPONSEMATRIX::set_neutron_bin_widths(Eigen::VectorXf neutron_bin_widths)'],['../classUNFOLD_1_1RESPONSEMATRIX.html#a6d83172606dae15d7905ebd14d8dbc64',1,'UNFOLD::RESPONSEMATRIX::set_neutron_bin_widths(TString filename)']]],
-  ['set_5fneutron_5fspectrum_4',['set_neutron_spectrum',['../classUNFOLD_1_1CORE__SINGLETON.html#a207fe708f7365282be1be3e8fee7b085',1,'UNFOLD::CORE_SINGLETON::set_neutron_spectrum(Eigen::VectorXf _neutron_spectrum)'],['../classUNFOLD_1_1CORE__SINGLETON.html#a02f789ca1ed87c377928979d285a4248',1,'UNFOLD::CORE_SINGLETON::set_neutron_spectrum(TString _neutron_spectrum_file)']]],
-  ['set_5fresponse_5fmatrix_5',['set_response_matrix',['../classUNFOLD_1_1CORE__SINGLETON.html#a2afbbf7fa3ece530514ab071c0d47d1e',1,'UNFOLD::CORE_SINGLETON::set_response_matrix(Eigen::MatrixXf _response_matrix)'],['../classUNFOLD_1_1CORE__SINGLETON.html#a3ac1ebed312a7e7049063cc662cd40db',1,'UNFOLD::CORE_SINGLETON::set_response_matrix(TString _response_matrix_file)']]],
-  ['singleton_6',['SINGLETON',['../classUNFOLD_1_1CORE__SINGLETON.html#a9ca20f1bc12e578ecd1bc280fed21228',1,'UNFOLD::CORE_SINGLETON::SINGLETON(TString _response_matrix_file)'],['../classUNFOLD_1_1CORE__SINGLETON.html#a10427bb5ea0b8816f4cdb064e1b642c2',1,'UNFOLD::CORE_SINGLETON::SINGLETON(Eigen::MatrixXf _response_matrix)']]]
+  ['read_5fmatrix_0',['read_matrix',['../FILEHANDLER_8h.html#ab53dd5f438b97de0646678c13eb2be9c',1,'UNFOLD']]],
+  ['read_5ftranspose_5fmatrix_1',['read_transpose_matrix',['../FILEHANDLER_8h.html#a3d410e572320636d22db848fd73e21be',1,'UNFOLD']]],
+  ['read_5fvector_2',['read_vector',['../FILEHANDLER_8h.html#a2771936ccc98221f1ff7fe5979bffe25',1,'UNFOLD']]],
+  ['rebin_3',['rebin',['../classUNFOLD_1_1RESPONSEMATRIX.html#a8e8ae7d42ddb120f0342d16b750039a9',1,'UNFOLD::RESPONSEMATRIX']]],
+  ['response_5fmatrix_4',['response_matrix',['../classUNFOLD_1_1EQUATION.html#a5dc4cf0737d77873dbdb10e3de4d0d36',1,'UNFOLD::EQUATION']]],
+  ['responsematrix_5',['RESPONSEMATRIX',['../classUNFOLD_1_1RESPONSEMATRIX.html#a6286cb9be2457881431173f4bdd73a07',1,'UNFOLD::RESPONSEMATRIX::RESPONSEMATRIX(Eigen::MatrixXf response_matrix)'],['../classUNFOLD_1_1RESPONSEMATRIX.html#a0646953d41d502dfcd6df72f19d80951',1,'UNFOLD::RESPONSEMATRIX::RESPONSEMATRIX(TString filename)'],['../classUNFOLD_1_1RESPONSEMATRIX.html',1,'UNFOLD::RESPONSEMATRIX']]],
+  ['responsematrix_2eh_6',['RESPONSEMATRIX.h',['../RESPONSEMATRIX_8h.html',1,'']]]
 ];

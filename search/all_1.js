@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['core_5fsingleton_0',['CORE_SINGLETON',['../classUNFOLD_1_1CORE__SINGLETON.html',1,'UNFOLD']]]
+  ['download_20and_20installation_0',['Download and Installation',['../download.html',1,'index']]],
+  ['dup_1',['DUP',['../classUNFOLD_1_1DUP.html',1,'UNFOLD']]]
 ];
