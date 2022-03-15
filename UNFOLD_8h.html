@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>NUNF: Class Members - Functions</title>
+<title>NUNF: include/UNFOLD.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('functions_func.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('UNFOLD_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -82,31 +82,39 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </iframe>
 </div>
 
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">UNFOLD.h File Reference</div></div>
+</div><!--header-->
 <div class="contents">
-&#160;<ul>
-<li>export_answer()&#160;:&#160;<a class="el" href="classUNFOLD_1_1UNFOLD.html#a1b562421fec7112436c6478530c34edf">UNFOLD::UNFOLD</a></li>
-<li>export_forward_projection()&#160;:&#160;<a class="el" href="classUNFOLD_1_1UNFOLD.html#a4e0579e80af049fa591d76119b018a49">UNFOLD::UNFOLD</a></li>
-<li>export_ground_truth()&#160;:&#160;<a class="el" href="classUNFOLD_1_1UNFOLD.html#a1288f2e351ac478e0421e9b54bc96470">UNFOLD::UNFOLD</a></li>
-<li>export_light_spectrum()&#160;:&#160;<a class="el" href="classUNFOLD_1_1UNFOLD.html#ac3a1143642e209b04dc6c7b140b4f036">UNFOLD::UNFOLD</a></li>
-<li>export_response_matrix()&#160;:&#160;<a class="el" href="classUNFOLD_1_1UNFOLD.html#afe26050199d4d4e14834e3f316fdcabe">UNFOLD::UNFOLD</a></li>
-<li>export_RMSE()&#160;:&#160;<a class="el" href="classUNFOLD_1_1UNFOLD.html#ac15628c0ed6e901baea809eb330dc83a">UNFOLD::UNFOLD</a></li>
-<li>get_light_bin_widths()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#ad25893a89e9022395ca6bdc6dcd725cb">UNFOLD::RESPONSEMATRIX</a></li>
-<li>get_neutron_bin_widths()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a506a17a0108bf7bb5e686513f6cfafc2">UNFOLD::RESPONSEMATRIX</a></li>
-<li>get_response_matrix()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a8d6b3c077097416a3ef948e1e374e9a0">UNFOLD::RESPONSEMATRIX</a></li>
-<li>normalize()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a2ccb165975e701eb5fd20df3a44dde01">UNFOLD::RESPONSEMATRIX</a></li>
-<li>rebin()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a8e8ae7d42ddb120f0342d16b750039a9">UNFOLD::RESPONSEMATRIX</a></li>
-<li>RESPONSEMATRIX()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a6286cb9be2457881431173f4bdd73a07">UNFOLD::RESPONSEMATRIX</a></li>
-<li>set_light_bin_widths()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a894eae61a39f796758132ce62b4d64b4">UNFOLD::RESPONSEMATRIX</a></li>
-<li>set_neutron_bin_widths()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a42b6b4a9f2a47088b87c88d68f2c64e3">UNFOLD::RESPONSEMATRIX</a></li>
-<li>transpose()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#aa5b71e0159f2fa350ec9b36da9ae2ad3">UNFOLD::RESPONSEMATRIX</a></li>
-<li>view_normalized()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#a15a086a3fabc2ae4552eba3e7bc5c24c">UNFOLD::RESPONSEMATRIX</a></li>
-<li>view_transpose()&#160;:&#160;<a class="el" href="classUNFOLD_1_1RESPONSEMATRIX.html#ad1e88f1dffc91a8638dd65f4adaa68ca">UNFOLD::RESPONSEMATRIX</a></li>
-</ul>
-</div><!-- contents -->
+
+<p>Contains the class UNFOLD.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;Eigen/Core&gt;</code><br />
+<code>#include &lt;Eigen/Dense&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;TGraph.h&gt;</code><br />
+<code>#include &lt;FILEIO.h&gt;</code><br />
+</div>
+<p><a href="UNFOLD_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUNFOLD_1_1UNFOLD.html">UNFOLD::UNFOLD</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to unfold the data.  <a href="classUNFOLD_1_1UNFOLD.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Contains the class UNFOLD. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="UNFOLD_8h.html">UNFOLD.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>

@@ -106,9 +106,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2297766ca82c4d5ebe794e93f9811532"><td class="memItemLeft" align="right" valign="top">TCanvas *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PLOT_8h.html#a2297766ca82c4d5ebe794e93f9811532">UNFOLD::plot_eigen_vector_by_fill</a> (const char *_graph_name, const char *_title, Eigen::VectorXf _abcessa_vector, Eigen::VectorXf &amp;_vector, int n_bins, int _x_min, int _x_max)</td></tr>
 <tr class="memdesc:a2297766ca82c4d5ebe794e93f9811532"><td class="mdescLeft">&#160;</td><td class="mdescRight">function used to plot Eigen::VectorXf values  <a href="PLOT_8h.html#a2297766ca82c4d5ebe794e93f9811532">More...</a><br /></td></tr>
 <tr class="separator:a2297766ca82c4d5ebe794e93f9811532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2177eab564c68ab82cd70adfb682e9"><td class="memItemLeft" align="right" valign="top">TCanvas *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PLOT_8h.html#aae2177eab564c68ab82cd70adfb682e9">UNFOLD::plot_vector_by_bin</a> (const char *_graph_name, const char *_title, std::vector&lt; double &gt; &amp;_vector, int _n_bins, int _x_min, int _x_max)</td></tr>
-<tr class="memdesc:aae2177eab564c68ab82cd70adfb682e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">function used to plot Eigen::VectorXf values  <a href="PLOT_8h.html#aae2177eab564c68ab82cd70adfb682e9">More...</a><br /></td></tr>
-<tr class="separator:aae2177eab564c68ab82cd70adfb682e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7504f63c626e5e1e95adc55085f8e61e"><td class="memItemLeft" align="right" valign="top">TCanvas *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PLOT_8h.html#a7504f63c626e5e1e95adc55085f8e61e">UNFOLD::plot_vector_by_bin</a> (const char *_graph_name, const char *_title, std::vector&lt; double &gt; &amp;_vector, int _n_bins, int _x_min, int _x_max, int _bin_offset)</td></tr>
+<tr class="memdesc:a7504f63c626e5e1e95adc55085f8e61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">function used to plot Eigen::VectorXf values  <a href="PLOT_8h.html#a7504f63c626e5e1e95adc55085f8e61e">More...</a><br /></td></tr>
+<tr class="separator:a7504f63c626e5e1e95adc55085f8e61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This file contains the PLOT class. </p>
@@ -250,8 +250,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aae2177eab564c68ab82cd70adfb682e9" name="aae2177eab564c68ab82cd70adfb682e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae2177eab564c68ab82cd70adfb682e9">&#9670;&nbsp;</a></span>plot_vector_by_bin()</h2>
+<a id="a7504f63c626e5e1e95adc55085f8e61e" name="a7504f63c626e5e1e95adc55085f8e61e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7504f63c626e5e1e95adc55085f8e61e">&#9670;&nbsp;</a></span>plot_vector_by_bin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +290,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>_x_max</em>&#160;</td>
+          <td class="paramname"><em>_x_max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_bin_offset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -309,6 +315,7 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">_n_bins</td><td>number of bins </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">_x_min</td><td>minimum value of x-axis </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">_x_max</td><td>maximum value of x-axis </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_bin_offset</td><td>offset of the starting bins </td></tr>
   </table>
   </dd>
 </dl>

@@ -95,14 +95,11 @@ $(document).ready(function(){initNavTree('FILEHANDLER_8h.html',''); initResizabl
 <code>#include &lt;TH1.h&gt;</code><br />
 <code>#include &lt;TH2.h&gt;</code><br />
 <code>#include &lt;TString.h&gt;</code><br />
-<code>#include &lt;TCanvas.h&gt;</code><br />
 <code>#include &lt;Eigen/Core&gt;</code><br />
 <code>#include &lt;Eigen/Dense&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
 </div>
 <p><a href="FILEHANDLER_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,12 +114,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a2771936ccc98221f1ff7fe5979bffe25"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FILEHANDLER_8h.html#a2771936ccc98221f1ff7fe5979bffe25">UNFOLD::read_vector</a> (TString file_name)</td></tr>
 <tr class="memdesc:a2771936ccc98221f1ff7fe5979bffe25"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads in a file delimiinated by spaces and returns a vector of floats  <a href="FILEHANDLER_8h.html#a2771936ccc98221f1ff7fe5979bffe25">More...</a><br /></td></tr>
 <tr class="separator:a2771936ccc98221f1ff7fe5979bffe25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35abb8de0c78654a54b47996d4ecaa78"><td class="memItemLeft" align="right" valign="top">TString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FILEHANDLER_8h.html#a35abb8de0c78654a54b47996d4ecaa78">UNFOLD::write_matrix</a> (TString file_name, Eigen::MatrixXf matrix, bool transpose=false)</td></tr>
-<tr class="memdesc:a35abb8de0c78654a54b47996d4ecaa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a matrix to a file  <a href="FILEHANDLER_8h.html#a35abb8de0c78654a54b47996d4ecaa78">More...</a><br /></td></tr>
-<tr class="separator:a35abb8de0c78654a54b47996d4ecaa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc0792e56924c8516ffb7dd1f9416762"><td class="memItemLeft" align="right" valign="top">TString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FILEHANDLER_8h.html#adc0792e56924c8516ffb7dd1f9416762">UNFOLD::write_vector</a> (TString file_name, Eigen::VectorXf vector)</td></tr>
-<tr class="memdesc:adc0792e56924c8516ffb7dd1f9416762"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a vector to a file  <a href="FILEHANDLER_8h.html#adc0792e56924c8516ffb7dd1f9416762">More...</a><br /></td></tr>
-<tr class="separator:adc0792e56924c8516ffb7dd1f9416762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a095b681da31193337604fee79fe0c90c"><td class="memItemLeft" align="right" valign="top">TString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FILEHANDLER_8h.html#a095b681da31193337604fee79fe0c90c">UNFOLD::write_matrix_to_file</a> (TString file_name, Eigen::MatrixXf matrix)</td></tr>
+<tr class="memdesc:a095b681da31193337604fee79fe0c90c"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a matrix to a file  <a href="FILEHANDLER_8h.html#a095b681da31193337604fee79fe0c90c">More...</a><br /></td></tr>
+<tr class="separator:a095b681da31193337604fee79fe0c90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416676f62ed3bba6d501310661ff9963"><td class="memItemLeft" align="right" valign="top">TString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FILEHANDLER_8h.html#a416676f62ed3bba6d501310661ff9963">UNFOLD::write_vector_to_file</a> (TString file_name, Eigen::VectorXf vector)</td></tr>
+<tr class="memdesc:a416676f62ed3bba6d501310661ff9963"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a vector to a file  <a href="FILEHANDLER_8h.html#a416676f62ed3bba6d501310661ff9963">More...</a><br /></td></tr>
+<tr class="separator:a416676f62ed3bba6d501310661ff9963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad159caaf067b2a39928a93d71813e604"><td class="memItemLeft" align="right" valign="top">TString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FILEHANDLER_8h.html#ad159caaf067b2a39928a93d71813e604">UNFOLD::write_vector_to_file</a> (TString file_name, std::vector&lt; double &gt; vector)</td></tr>
+<tr class="memdesc:ad159caaf067b2a39928a93d71813e604"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a vector to a file  <a href="FILEHANDLER_8h.html#ad159caaf067b2a39928a93d71813e604">More...</a><br /></td></tr>
+<tr class="separator:ad159caaf067b2a39928a93d71813e604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >: list of filehandling functions for neutron unfolding </p>
@@ -208,14 +208,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a35abb8de0c78654a54b47996d4ecaa78" name="a35abb8de0c78654a54b47996d4ecaa78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35abb8de0c78654a54b47996d4ecaa78">&#9670;&nbsp;</a></span>write_matrix()</h2>
+<a id="a095b681da31193337604fee79fe0c90c" name="a095b681da31193337604fee79fe0c90c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a095b681da31193337604fee79fe0c90c">&#9670;&nbsp;</a></span>write_matrix_to_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TString UNFOLD::write_matrix </td>
+          <td class="memname">TString UNFOLD::write_matrix_to_file </td>
           <td>(</td>
           <td class="paramtype">TString&#160;</td>
           <td class="paramname"><em>file_name</em>, </td>
@@ -224,13 +224,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Eigen::MatrixXf&#160;</td>
-          <td class="paramname"><em>matrix</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>transpose</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>matrix</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -244,7 +238,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">file_name</td><td>The name of the file to write to </td></tr>
-    <tr><td class="paramname">matrix</td><td>The matrix to write to the file </td></tr>
+    <tr><td class="paramname">matrix</td><td>The matrixXf to write to the file </td></tr>
     <tr><td class="paramname">transpose</td><td>A bool which is true if the matrix is to be written in transposed form </td></tr>
   </table>
   </dd>
@@ -253,14 +247,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adc0792e56924c8516ffb7dd1f9416762" name="adc0792e56924c8516ffb7dd1f9416762"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc0792e56924c8516ffb7dd1f9416762">&#9670;&nbsp;</a></span>write_vector()</h2>
+<a id="a416676f62ed3bba6d501310661ff9963" name="a416676f62ed3bba6d501310661ff9963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416676f62ed3bba6d501310661ff9963">&#9670;&nbsp;</a></span>write_vector_to_file() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TString UNFOLD::write_vector </td>
+          <td class="memname">TString UNFOLD::write_vector_to_file </td>
           <td>(</td>
           <td class="paramtype">TString&#160;</td>
           <td class="paramname"><em>file_name</em>, </td>
@@ -283,7 +277,45 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">file_name</td><td>The name of the file to write to </td></tr>
-    <tr><td class="paramname">vector</td><td>The vector to write </td></tr>
+    <tr><td class="paramname">vector</td><td>The Eigen::VectorXf to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>file_name of the file written if successful, otherwise returns an empty string </dd></dl>
+
+</div>
+</div>
+<a id="ad159caaf067b2a39928a93d71813e604" name="ad159caaf067b2a39928a93d71813e604"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad159caaf067b2a39928a93d71813e604">&#9670;&nbsp;</a></span>write_vector_to_file() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TString UNFOLD::write_vector_to_file </td>
+          <td>(</td>
+          <td class="paramtype">TString&#160;</td>
+          <td class="paramname"><em>file_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>vector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>writes a vector to a file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_name</td><td>The name of the file to write to </td></tr>
+    <tr><td class="paramname">vector</td><td>The std::vector&lt;double&gt; to write </td></tr>
   </table>
   </dd>
 </dl>

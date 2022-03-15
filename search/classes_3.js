@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hvis_0',['HVis',['../classUNFOLD_1_1HVis.html',1,'UNFOLD']]]
+  ['mcmc_0',['MCMC',['../classMCMC.html',1,'']]]
 ];
