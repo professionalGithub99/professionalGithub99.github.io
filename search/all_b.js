@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['scientific_20explanation_20of_20concepts_20_20_3cbr_3e_0',['Scientific explanation of concepts  &lt;br&gt;',['../scientific.html',1,'index']]],
-  ['set_5flight_5fbin_5fwidths_1',['set_light_bin_widths',['../classUNFOLD_1_1RESPONSEMATRIX.html#a894eae61a39f796758132ce62b4d64b4',1,'UNFOLD::RESPONSEMATRIX::set_light_bin_widths(Eigen::VectorXf light_bin_widths)'],['../classUNFOLD_1_1RESPONSEMATRIX.html#a71ad8a414414cad7dfd7af02c8841165',1,'UNFOLD::RESPONSEMATRIX::set_light_bin_widths(TString filename)']]],
-  ['set_5fneutron_5fbin_5fwidths_2',['set_neutron_bin_widths',['../classUNFOLD_1_1RESPONSEMATRIX.html#a42b6b4a9f2a47088b87c88d68f2c64e3',1,'UNFOLD::RESPONSEMATRIX::set_neutron_bin_widths(Eigen::VectorXf neutron_bin_widths)'],['../classUNFOLD_1_1RESPONSEMATRIX.html#a6d83172606dae15d7905ebd14d8dbc64',1,'UNFOLD::RESPONSEMATRIX::set_neutron_bin_widths(TString filename)']]]
+  ['write_5fmatrix_5fto_5ffile_0',['write_matrix_to_file',['../FILEHELPER_8h.html#ae4e426a30559c062bbc647dd37ac9a9b',1,'FILEHELPER']]],
+  ['write_5fvector_5fto_5ffile_1',['write_vector_to_file',['../FILEHELPER_8h.html#a5f7689b6e928656e884178d06257cc4c',1,'FILEHELPER::write_vector_to_file(TString file_name, Eigen::VectorXf vector)'],['../FILEHELPER_8h.html#a687240e714d5ebc2ac37799372a923aa',1,'FILEHELPER::write_vector_to_file(TString file_name, std::vector&lt; double &gt; vector)']]]
 ];

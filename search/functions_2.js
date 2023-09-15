@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['normalize_0',['normalize',['../classUNFOLD_1_1RESPONSEMATRIX.html#a2ccb165975e701eb5fd20df3a44dde01',1,'UNFOLD::RESPONSEMATRIX']]]
+  ['generatevector_0',['generateVector',['../FILEHELPER_8h.html#a2859cf17313ce5fa2278e0269fdd6b20',1,'FILEHELPER']]],
+  ['generatevectorfile_1',['generateVectorFile',['../FILEHELPER_8h.html#ac0dc1b441499703270c3f378a16392f9',1,'FILEHELPER']]]
 ];

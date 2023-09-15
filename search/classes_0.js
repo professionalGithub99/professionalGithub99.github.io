@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dup_0',['DUP',['../classUNFOLD_1_1DUP.html',1,'UNFOLD']]]
+  ['fileio_0',['FILEIO',['../classUNFOLD_1_1FILEIO.html',1,'UNFOLD']]]
 ];

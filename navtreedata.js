@@ -42,7 +42,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"DUP_8h_source.html"
+"FILEHELPER_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

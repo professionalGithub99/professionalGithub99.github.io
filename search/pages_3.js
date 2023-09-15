@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quickstart_20usage_20and_20examples_0',['Quickstart Usage and Examples',['../quickstart.html',1,'index']]]
+  ['matrix_20condition_20example_0',['Matrix Condition Example',['../matrix_condition_example.html',1,'index']]]
 ];

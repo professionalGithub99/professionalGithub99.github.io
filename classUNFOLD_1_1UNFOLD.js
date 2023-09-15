@@ -1,9 +1,13 @@
 var classUNFOLD_1_1UNFOLD =
 [
-    [ "export_answer", "classUNFOLD_1_1UNFOLD.html#a1b562421fec7112436c6478530c34edf", null ],
-    [ "export_forward_projection", "classUNFOLD_1_1UNFOLD.html#a4e0579e80af049fa591d76119b018a49", null ],
-    [ "export_ground_truth", "classUNFOLD_1_1UNFOLD.html#a1288f2e351ac478e0421e9b54bc96470", null ],
-    [ "export_light_spectrum", "classUNFOLD_1_1UNFOLD.html#ac3a1143642e209b04dc6c7b140b4f036", null ],
-    [ "export_response_matrix", "classUNFOLD_1_1UNFOLD.html#afe26050199d4d4e14834e3f316fdcabe", null ],
-    [ "export_RMSE", "classUNFOLD_1_1UNFOLD.html#ac15628c0ed6e901baea809eb330dc83a", null ]
+    [ "export_ground_truth", "classUNFOLD_1_1UNFOLD.html#a4ffdbc982e7349dbe48ab09f28772644", null ],
+    [ "export_light_spectrum", "classUNFOLD_1_1UNFOLD.html#a06be4af36612655781ea9f8b8a428e8e", null ],
+    [ "exportAnswer", "classUNFOLD_1_1UNFOLD.html#a14aef35549840c97459bae810ea0231d", null ],
+    [ "exportForwardProjection", "classUNFOLD_1_1UNFOLD.html#ae99b29d8df4b1f58ef59e1920987159c", null ],
+    [ "exportResiduals", "classUNFOLD_1_1UNFOLD.html#ac49fb6427ee279f294484086e720f790", null ],
+    [ "exportResponseMatrix", "classUNFOLD_1_1UNFOLD.html#a62d37cadc055d7cc350642549a68ec2d", null ],
+    [ "exportRMSE", "classUNFOLD_1_1UNFOLD.html#a3298c3db1d796e01ba0e7e17fe059c46", null ],
+    [ "plot_response_for_neutron_energies", "classUNFOLD_1_1UNFOLD.html#a41a8bb08a139e9f7aab76002a03d9e8e", null ],
+    [ "plot_response_on_2d_histogram", "classUNFOLD_1_1UNFOLD.html#aa1543ff19c095f4a39470e562bc42441", null ],
+    [ "plotResiduals", "classUNFOLD_1_1UNFOLD.html#afea73c6faf2231d44586badc095f0443", null ]
 ];

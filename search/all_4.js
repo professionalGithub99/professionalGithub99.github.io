@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['get_5flight_5fbin_5fwidths_0',['get_light_bin_widths',['../classUNFOLD_1_1RESPONSEMATRIX.html#ad25893a89e9022395ca6bdc6dcd725cb',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['get_5fneutron_5fbin_5fwidths_1',['get_neutron_bin_widths',['../classUNFOLD_1_1RESPONSEMATRIX.html#a506a17a0108bf7bb5e686513f6cfafc2',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['get_5fresponse_5fmatrix_2',['get_response_matrix',['../classUNFOLD_1_1RESPONSEMATRIX.html#a8d6b3c077097416a3ef948e1e374e9a0',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['getting_20started_3',['Getting Started',['../index.html',1,'']]]
+  ['generatevector_0',['generateVector',['../FILEHELPER_8h.html#a2859cf17313ce5fa2278e0269fdd6b20',1,'FILEHELPER']]],
+  ['generatevectorfile_1',['generateVectorFile',['../FILEHELPER_8h.html#ac0dc1b441499703270c3f378a16392f9',1,'FILEHELPER']]],
+  ['getting_20started_2',['Getting Started',['../index.html',1,'']]]
 ];

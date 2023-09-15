@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['view_5fnormalized_0',['view_normalized',['../classUNFOLD_1_1RESPONSEMATRIX.html#a15a086a3fabc2ae4552eba3e7bc5c24c',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['view_5ftranspose_1',['view_transpose',['../classUNFOLD_1_1RESPONSEMATRIX.html#ad1e88f1dffc91a8638dd65f4adaa68ca',1,'UNFOLD::RESPONSEMATRIX']]],
-  ['vis_2',['Vis',['../classUNFOLD_1_1Vis.html',1,'UNFOLD']]]
+  ['write_5fmatrix_5fto_5ffile_0',['write_matrix_to_file',['../FILEHANDLER_8h.html#a095b681da31193337604fee79fe0c90c',1,'UNFOLD']]],
+  ['write_5fvector_5fto_5ffile_1',['write_vector_to_file',['../FILEHANDLER_8h.html#a416676f62ed3bba6d501310661ff9963',1,'UNFOLD::write_vector_to_file(TString file_name, Eigen::VectorXf vector)'],['../FILEHANDLER_8h.html#ad159caaf067b2a39928a93d71813e604',1,'UNFOLD::write_vector_to_file(TString file_name, std::vector&lt; double &gt; vector)']]]
 ];

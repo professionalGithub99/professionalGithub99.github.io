@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['advanced_20usage_20and_20documentation_0',['Advanced Usage and Documentation',['../advanced.html',1,'index']]]
+  ['download_20and_20installation_0',['Download and Installation',['../download.html',1,'index']]]
 ];
